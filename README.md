@@ -5,26 +5,30 @@ TP3_EMSY_BSH_HMT
 
 Réponse aux questions théoriques.
 
-Q1. Quel est le protocole de communication permettant de vous connecter à distance à la BBG ?
---
+**Q1. Quel est le protocole de communication permettant de vous connecter à distance à la BBG ?**
 
-Q2. Dans le modèle OSI, à quoi correspond ce protocole (numéro et nom de la couche) ?
---
+Pour communiquer à notre BBG, on règle notre Putty en mode de communication SSH (The Secure Shell)
 
-Q3. Sur cette couche spécifique, le protocole utilisé à la question Q1 fait référence à quel(s) autre(s)
-protocole(s) et port(s) ?
---
+SSH uses cryptography to authenticate and encrypt connections between devices.
 
-Q4. Lors de votre connexion, dans quel répertoire vous trouvez-vous ? quelle(s) commande(s)
-utilisez-vous (complète) ?
+**Q2. Dans le modèle OSI, à quoi correspond ce protocole (numéro et nom de la couche) ?**
+
+Le SSH prend la couche Application qui est le numéro 7.
+
+**Q3. Sur cette couche spécifique, le protocole utilisé à la question Q1 fait référence à quel(s) autre(s)
+protocole(s) et port(s) ?**
+
+On pourais utilisé les protocoles FTP SFTP
+
+**Q4. Lors de votre connexion, dans quel répertoire vous trouvez-vous ? quelle(s) commande(s)
+utilisez-vous (complète) ?**
 
 debian@BBG004:~$
 
-ils se trouvent dans le root root //Je suis pas sure
+le "~" nous indique que on fonctione actuellement sure le "working directory", ou simplement sure le Home.
 
-
-5. Créez un répertoire à cet emplacement que vous nommerez : TP3_XXX_YYY 
-X et Y représentent vos initiales si vous êtes en binômes
+**5. Créez un répertoire à cet emplacement que vous nommerez : TP3_XXX_YYY 
+X et Y représentent vos initiales si vous êtes en binômes**
 
 sudo nano TP3_BSH_HMT
 
