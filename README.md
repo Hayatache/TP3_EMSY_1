@@ -68,12 +68,14 @@ cat mon_fichier.txt
 
 Pour la partie 6, on nous a demandé que notre système soit capable d'envoyer un mail dans un temps désiré.
 Également, si la température passe la seulle qui n'est pas acceptable, il nous envoie également un email d'urgence.
-![alt text]([temperature warning mail.png)
-](https://github.com/Hayatache/TP3_EMSY_1/blob/main/temperature%20warning%20mail.png)
+
+![alt text](https://github.com/Hayatache/TP3_EMSY_1/blob/main/temperature%20warning%20mail.png)
 
 Pour régler notre email automatique, on exécute la commande "crontab -l". 
 le chiffre 15 représente l'intervalle de temps que le code va s'exécuter, le code en.py peut également être changé
+
 ![alt text](https://github.com/Hayatache/TP3_EMSY_1/blob/main/automatsation.png)
 
 Voici un screen qui démontre notre code fonctionnel, est l'écriture des données dans le.svc
-![alt text]([https://github.com/Hayatache/TP3_EMSY_1/blob/main/Fonctionement.png](https://github.com/Hayatache/TP3_EMSY_1/blob/main/Fonctionement.png))
+
+![alt text](https://github.com/Hayatache/TP3_EMSY_1/blob/main/Fonctionement.png)
