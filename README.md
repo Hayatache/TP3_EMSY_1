@@ -50,9 +50,12 @@ Utilisez la commande suivante pour vérifier si le logiciel `nano` est présent 
 Nano --version
 ```
 #### installation si le logiciel n'est pas installer
-
+```bash
 sudo apt-get update
+```
+```bash
 sudo apt-get install nano
+```
 
 #### lecture d'un fichier sans utiliser nano
 cat mon_fichier.txt
