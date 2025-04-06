@@ -7,13 +7,13 @@ Ce projet a pour but d’explorer l'utilisation d’un système Linux embarqué 
 
 ---
 
-### Q1. Quel est le protocole de communication permettant de vous connecter à distance à la BBG ?
+### Q1. Protocole de communication permettant de vous connecter à distance à la BBG ?
 SSH (Secure Shell)
 
-### Q2. Dans le modèle OSI, à quoi correspond ce protocole (numéro et nom de la couche) ?
+### Q2. À quoi correspond ce protocole dans le modèle OSI (numéro et nom de la couche) ?
 Couche 7 – Application
 
-### Q3. Sur cette couche spécifique, le protocole utilisé à la question Q1 fait référence à quel(s) autre(s) protocole(s) et port(s) ?
+### Q3. Le protocole utilisé à la question 1 fait référence à quel autre protocole et port ?
 Protocole : TCP  
 Port : 22
 
@@ -21,12 +21,12 @@ Port : 22
 Commande : `pwd`  
 Répertoire : `/home/debian`
 
-### Q5. Si vous n’arriviez pas à vous connecter à la BBG, quelle(s) commande(s), testeriez-vous depuis la machine hôte ?
+### Q5. Si vous n’arriviez pas à vous connecter à la BBG, quelle commande, testeriez-vous depuis la machine hôte ?
 - `ping <adresse_IP>`
 - `telnet <adresse_IP> 22`
 - `nmap <adresse_IP>`
 
-### Q6. Sur la BBG, quelle(s) est/sont la/es commande(s) pour connaitre la configuration du réseau Ethernet ?
+### Q6. Sur la BBG, quelles sont les commandes pour connaitre la configuration du réseau Ethernet ?
 - `ip a`
 - `ip r`
 - `ip link`
@@ -37,19 +37,19 @@ c. Adresse réseau : calculable avec `ipcalc`
 d. Passerelle par défaut : `ip r`  
 e. MAC adresse : `ip link`
 
-### Q7. Quelle(s) commande(s) utilisez-vous pour créer ce répertoire et qui a les droits d’écriture dessus ?
+### Q7. Quelles commandes utilisez-vous pour créer ce répertoire et qui a les droits d’écriture dessus ?
 ```bash
 mkdir TP3_BSH_HMT
 ls -ld TP3_BSH_HMT
 ```
 ### Q8. Vérification et installation d’un logiciel (exemple : `nano`)
-#### Comment vérifier si un logiciel est déjà installé ?
+#### verification si un logiciel est installé ?
 
 Utilisez la commande suivante pour vérifier si le logiciel `nano` est présent :
 ```bash
 Nano --version
 ```
-#### installation si le logiciel n'est pas installer
+#### installation si un logiciel n'est pas installer (exemple : `nano`)
 ```bash
 sudo apt-get update
 ```
@@ -58,4 +58,7 @@ sudo apt-get install nano
 ```
 
 #### lecture d'un fichier sans utiliser nano
+```bash
 cat mon_fichier.txt
+```
+### Q9. schéma de principe réseau
