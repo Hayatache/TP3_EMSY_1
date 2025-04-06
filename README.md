@@ -43,7 +43,7 @@ mkdir TP3_BSH_HMT
 ls -ld TP3_BSH_HMT
 ```
 ### Q8. Vérification et installation d’un logiciel (exemple : `nano`)
-#### 🔍 Comment vérifier si un logiciel est déjà installé ?
+#### Comment vérifier si un logiciel est déjà installé ?
 
 Utilisez la commande suivante pour vérifier si le logiciel `nano` est présent :
 ```bash
