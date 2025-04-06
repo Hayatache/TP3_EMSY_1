@@ -3,7 +3,7 @@
 
 ## but du TP
 
-Ce projet a pour but d’explorer l'utilisation d’un système Linux embarqué sur une BeagleBone Green (BBG), à travers diverses manipulations réseau, de configuration, de lecture de capteur, d’automatisation, et de traitement de données.
+Ce projet a pour but d’explorer l'utilisation d’un système Linux embarqué sur une BeagleBone Green (BBG).
 
 ---
 
