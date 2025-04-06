@@ -62,4 +62,4 @@ sudo apt-get install nano
 cat mon_fichier.txt
 ```
 ### Q9. schéma de principe réseau
-![Image non disponible pour jsp quel raison](schema_de_principe.png)
+![Image non disponible pour jsp quel raison](TP3_EMSY_1/schema_de_principe.png)
