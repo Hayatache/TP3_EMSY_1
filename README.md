@@ -73,7 +73,7 @@ Pour la partie 6, on nous a demandé que notre système soit capable d'envoyer u
 
 ![alt text](https://github.com/Hayatache/TP3_EMSY_1/blob/main/temperature%20warning%20mail.png)
 
-Pour régler notre email automatique, on exécute la commande "crontab -l". 
+Pour régler notre email automatique, on exécute la commande "crontab -e". 
 le chiffre 15 représente l'intervalle de temps que le code va s'exécuter, le code en.py peut également être changé
 
 ![alt text](https://github.com/Hayatache/TP3_EMSY_1/blob/main/automatsation.png)
