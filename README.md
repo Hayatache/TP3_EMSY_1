@@ -64,9 +64,8 @@ sudo apt-get install nano
 cat mon_fichier.txt
 ```
 ### Q9. schéma de principe réseau
-```bash
 ![alt text](https://github.com/Hayatache/TP3_EMSY_1/blob/main/schema_de_pincipe.png)
-```
+
 ### Execution automatique du code
 
 Pour la partie 6, on nous a demandé que notre système soit capable d'envoyer un mail dans un temps désiré.
