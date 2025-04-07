@@ -7,13 +7,14 @@ Ce projet a pour but d’explorer l'utilisation d’un système Linux embarqué 
 
 ---
 
-## Reponse au gestion 
+## Reponse aux question
+
 ### Q1. Protocole de communication permettant de vous connecter à distance à la BBG ?
 SSH (Secure Shell)
-
+---
 ### Q2. À quoi correspond ce protocole dans le modèle OSI (numéro et nom de la couche) ?
 Couche 7 – Application
-
+---
 ### Q3. Le protocole utilisé à la question 1 fait référence à quel autre protocole et port ?
 Protocole : TCP  
 Port : 22
