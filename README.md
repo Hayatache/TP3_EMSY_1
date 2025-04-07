@@ -11,10 +11,10 @@ Ce projet a pour but d’explorer l'utilisation d’un système Linux embarqué 
 
 ### Q1. Protocole de communication permettant de vous connecter à distance à la BBG ?
 SSH (Secure Shell)
----
+
 ### Q2. À quoi correspond ce protocole dans le modèle OSI (numéro et nom de la couche) ?
 Couche 7 – Application
----
+
 ### Q3. Le protocole utilisé à la question 1 fait référence à quel autre protocole et port ?
 Protocole : TCP  
 Port : 22
@@ -66,7 +66,7 @@ cat mon_fichier.txt
 ### Q9. schéma de principe réseau
 ![Image non disponible pour jsp quel raison](schema_de_pincipe.png)
 
-### EXÉCUTION AUTOMATIQUE
+### Execution automatique du code
 
 Pour la partie 6, on nous a demandé que notre système soit capable d'envoyer un mail dans un temps désiré.
 Également, si la température passe la seulle qui n'est pas acceptable, il nous envoie également un email d'urgence.
