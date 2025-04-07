@@ -7,6 +7,7 @@ Ce projet a pour but d’explorer l'utilisation d’un système Linux embarqué 
 
 ---
 
+## Reponse au gestion 
 ### Q1. Protocole de communication permettant de vous connecter à distance à la BBG ?
 SSH (Secure Shell)
 
